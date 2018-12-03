@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import { config } from "breeze-client";
+import { config } from "@cime/breeze-client";
 
 import { AjaxHttpClientAdapter } from "./ajax-http-client-adapter";
 import { Q } from "./common";

@@ -6,6 +6,10 @@ This is the updated bridge using the new HttpClient service and is recommended f
 
 # Change Log #
 
+### 4.3.0 December 3, 2018 ###
+
+`breeze-client` replaced with `@cime/breeze-client`
+
 ### 1.1.0 May 11, 2018 ###
 
 Support for rxjs 6 (backwards compatible with rxjs 5.5 and higher)
@@ -25,13 +29,13 @@ Initial beta release
 
 # Installation #
 
-1. Install breeze-client
+1. Install @cime/breeze-client
 
-	`npm install breeze-client --save`
+	`npm install @cime/breeze-client --save`
 
-2. Install breeze-bridge2-angular
+2. Install @cime/breeze-bridge-angular
 
-	`npm install breeze-bridge2-angular --save`
+	`npm install @cime/breeze-bridge-angular --save`
 
 # Usage #
 
@@ -61,7 +65,7 @@ Now we can use Breeze normally from something like a data service for example.
 
 ```
 import { Injectable } from '@angular/core';
-import { EntityManager, EntityQuery } from 'breeze-client';
+import { EntityManager, EntityQuery } from '@cime/breeze-client';
 import { Customer } from './entities';
 
 @Injectable()

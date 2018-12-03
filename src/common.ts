@@ -1,4 +1,4 @@
-import { promises, HttpResponse } from "breeze-client";
+import { promises, HttpResponse } from "@cime/breeze-client";
 
 /**
  * Minimum for breeze breeze Q/ES6 Promise adapter

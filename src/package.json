@@ -1,13 +1,13 @@
 {
-  "name": "breeze-bridge2-angular",
-  "version": "1.1.0",
+  "name": "@cime/breeze-bridge-angular",
+  "version": "4.3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Breeze/breeze.bridge2.angular"
+    "url": "https://github.com/cime/breeze.bridge2.angular"
   },
   "author": {
-    "name": "Marcel Good",
-    "email": "marcelg@ideablade.com"
+    "name": "cime",
+    "email": "cime3d@gmail.com"
   },
   "keywords": [
     "breeze",
@@ -16,7 +16,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Breeze/breeze.bridge2.angular/issues"
+    "url": "https://github.com/cime/breeze.bridge2.angular/issues"
   },
   "main": "breeze-bridge2-angular.umd.js",
   "module": "index.js",
@@ -27,6 +27,6 @@
     "@angular/common": ">= 4.3.0",
     "rxjs": ">= 5.5.0",
     "zone.js": ">= 0.8.4",
-    "breeze-client": ">= 1.6.3"
+    "@cime/breeze-client": ">= 1.7.2"
   }
 }
